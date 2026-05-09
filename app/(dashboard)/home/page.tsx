@@ -1,9 +1,9 @@
-import React from 'react'
+import SearchSection from "@/components/home/components/search-section";
 
-const page = () => {
+export default function Page() {
   return (
-    <div className=''>home page</div>
-  )
+    <div className="w-full h-full">
+      <SearchSection />
+    </div>
+  );
 }
-
-export default page

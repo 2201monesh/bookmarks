@@ -11,9 +11,7 @@ export default function DashboardLayout({
       <Sidebar />
       <main className="flex-1 overflow-y-auto">
         <Header />
-        <div className="px-4 py-2">
           {children}
-        </div>
       </main>
     </div>
   );
